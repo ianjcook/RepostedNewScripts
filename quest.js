@@ -102,6 +102,14 @@ function turnQuestTypeToLink(questText)
     {
         return("/dome/");
     }
+    else if (quest.includes("play"))
+    {
+        return "/inventory.phtml";
+    }
+    else if (quest.includes("groom"))
+    {
+        return "/inventory.phtml";
+    }
     else
     {
         return("404");
